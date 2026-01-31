@@ -10,11 +10,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="cursor"></div>
-    <div class="cursor-follower"></div>
-
     <nav>
-        <a href="#" class="logo">INTREPIDE</a>
+        <a href="#" class="logo-text">intrepide</a>
         <div class="nav-links">
             <a href="#about">About</a>
             <a href="#work">Work</a>
@@ -31,7 +28,7 @@
                     <span class="line">AI that amplifies</span>
                     <span class="line accent">human ingenuity</span>
                 </h1>
-                <p class="hero-sub">We help visionary organizations harness frontier AI to create extraordinary value—responsibly.</p>
+                <p class="hero-sub">We partner with visionary organizations to harness frontier AI—creating extraordinary value while keeping humans at the center.</p>
                 <a href="#contact" class="cta-button">
                     <span>Start a conversation</span>
                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -39,32 +36,27 @@
                     </svg>
                 </a>
             </div>
-            <div class="hero-visual">
-                <div class="orb"></div>
-                <div class="orb-ring"></div>
-                <div class="orb-ring delay"></div>
-            </div>
+            <div class="scroll-indicator">Scroll</div>
         </section>
 
         <!-- Belief -->
-        <section class="belief">
+        <section class="belief reveal">
             <div class="belief-content">
-                <span class="section-label">Our Belief</span>
                 <h2>The best AI doesn't replace people.<br><span class="accent">It gives them superpowers.</span></h2>
             </div>
         </section>
 
         <!-- Stats -->
         <section class="stats">
-            <div class="stat">
-                <div class="stat-number">10x</div>
+            <div class="stat reveal">
+                <div class="stat-number">10×</div>
                 <div class="stat-label">Faster workflows</div>
             </div>
-            <div class="stat">
+            <div class="stat reveal">
                 <div class="stat-number">40%</div>
                 <div class="stat-label">Cost reduction</div>
             </div>
-            <div class="stat">
+            <div class="stat reveal">
                 <div class="stat-number">∞</div>
                 <div class="stat-label">New possibilities</div>
             </div>
@@ -73,11 +65,11 @@
         <!-- About -->
         <section id="about" class="about">
             <div class="about-grid">
-                <div class="about-left">
+                <div class="about-left reveal">
                     <span class="section-label">Who We Are</span>
                     <h2>An independent collective of engineers, strategists & builders.</h2>
                 </div>
-                <div class="about-right">
+                <div class="about-right reveal">
                     <p>We're not a traditional consultancy. We're practitioners who've built AI systems at scale and understand both the potential and the pitfalls.</p>
                     <p>We partner with organizations ready to move beyond experimentation—to deploy AI that creates real, measurable impact while keeping humans at the center.</p>
                 </div>
@@ -90,67 +82,82 @@
             <h2>From strategy to deployment</h2>
             
             <div class="services-grid">
-                <div class="service-card">
+                <div class="service-card reveal">
                     <div class="service-number">01</div>
                     <h3>AI Strategy</h3>
-                    <p>Identify high-impact opportunities. Map the path from concept to production.</p>
+                    <p>Identify high-impact opportunities. Map the path from concept to production with clarity.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card reveal">
                     <div class="service-number">02</div>
                     <h3>Custom Solutions</h3>
-                    <p>Build tailored AI systems that solve your specific challenges.</p>
+                    <p>Build AI systems tailored to your specific needs—not generic tools, but precision instruments.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card reveal">
                     <div class="service-number">03</div>
-                    <h3>LLM Integration</h3>
-                    <p>Deploy foundation models responsibly with proper guardrails.</p>
+                    <h3>Integration</h3>
+                    <p>Embed AI seamlessly into existing workflows. No disruption, just amplification.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card reveal">
                     <div class="service-number">04</div>
-                    <h3>AI Products</h3>
-                    <p>Specialized software that brings AI capabilities to your industry.</p>
+                    <h3>Training & Enablement</h3>
+                    <p>Empower your team to work alongside AI effectively and confidently.</p>
                 </div>
             </div>
         </section>
 
         <!-- Values -->
-        <section class="values">
-            <div class="values-content">
-                <span class="section-label">How We Work</span>
-                <h2>Built on principles that matter</h2>
-                <div class="values-list">
-                    <span class="value">Integrity</span>
-                    <span class="value">Accountability</span>
-                    <span class="value">Curiosity</span>
-                    <span class="value">Collaboration</span>
-                    <span class="value">Respect</span>
-                    <span class="value">Balance</span>
-                    <span class="value">Service</span>
-                </div>
-                <p class="values-footer">A share of every engagement supports <a href="https://www.charitywater.org/" target="_blank">charity: water</a> — bringing clean water to those who need it most.</p>
+        <section class="values reveal">
+            <span class="section-label">Our Values</span>
+            <h2>Built on principles that matter</h2>
+            <div class="values-list">
+                <span class="value">Human-centered</span>
+                <span class="value">Responsible AI</span>
+                <span class="value">Radical transparency</span>
+                <span class="value">Long-term thinking</span>
+                <span class="value">Measurable impact</span>
             </div>
+            <p class="values-footer">We believe AI should serve people, not replace them. <a href="#contact">Learn more →</a></p>
         </section>
 
         <!-- Contact -->
-        <section id="contact" class="contact">
-            <div class="contact-content">
-                <span class="section-label">Ready?</span>
-                <h2>Let's build something<br><span class="accent">extraordinary.</span></h2>
-                <a href="mailto:hello@intrepide.ai" class="contact-email">hello@intrepide.ai</a>
-                <div class="contact-links">
-                    <a href="https://linkedin.com/company/intrepide" target="_blank">LinkedIn →</a>
-                </div>
+        <section id="contact" class="contact reveal">
+            <h2>Let's build<br>something bold.</h2>
+            <a href="mailto:hello@intrepide.ai" class="contact-email">hello@intrepide.ai</a>
+            <div class="contact-links">
+                <a href="https://linkedin.com/company/intrepide" target="_blank">LinkedIn</a>
             </div>
         </section>
     </main>
 
     <footer>
         <div class="footer-content">
-            <span class="logo">INTREPIDE</span>
-            <span class="copyright">© 2026</span>
+            <span class="copyright">© 2025 Intrepide. All rights reserved.</span>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        // Reveal on scroll
+        const reveals = document.querySelectorAll('.reveal');
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+        
+        reveals.forEach(el => observer.observe(el));
+
+        // Smooth anchor scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
