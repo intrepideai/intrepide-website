@@ -1,0 +1,12 @@
+{
+  "name": "intrepide-website",
+  "version": "1.0.0",
+  "description": "Intrepide - AI That Amplifies Human Ingenuity",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
